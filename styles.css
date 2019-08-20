@@ -71,6 +71,16 @@ margin-bottom: 50px;
   background-size: 150%;
 }
 
+.header-gallery {
+  background-image: url("./assets/imgs/SWQ_tenho_kasper.jpg"); 
+  background-size: 100%;
+}
+
+.header-gigs {
+  background-image: url("./assets/imgs/SWQ_ilkka_tenho_2.jpg"); 
+  background-size: 100%;
+}
+
 .dimmer {
   background-color: rgba(1, 0, 0, 0.2);
 }
