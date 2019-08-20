@@ -1,0 +1,119 @@
+html, body{
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  text-decoration : none;
+  color : #fff;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.nav-trans {
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+.text-orange {
+	color: #ff8800;
+}
+
+.button-orange {
+	background-color: #ff8800;
+}
+
+.lol {
+  height: 2000px
+}
+
+.a-pad {
+  padding-top: 56px;
+}
+
+.header-bar {
+  width: 70px;
+  height: 4px;
+  margin-top: 25px;
+}
+
+.sub-header {
+margin-bottom: 50px;
+}
+
+.half-page {
+  height: 50vh;
+}
+
+.min-half-page {
+  min-height: 50vh;
+}
+
+.full-page {
+  height: 100vh;
+}
+
+.min-full-page {
+  min-height: 100vh;
+}
+
+.header-bg {
+  min-height: 100%;
+  background-attachment: scroll;
+  background-size: 102%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header-bio {
+  background-image: url("./assets/imgs/SWQ_tommi_tenho_3.jpg"); 
+  background-size: 150%;
+}
+
+.dimmer {
+  background-color: rgba(1, 0, 0, 0.2);
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)), url("./assets/imgs/SWQ_v2.jpg");
+  /* Set a specific height */
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.social-buttons {
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+}
