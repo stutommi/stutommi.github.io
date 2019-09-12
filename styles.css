@@ -61,7 +61,6 @@ margin-bottom: 50px;
 .header-bg {
   min-height: 100%;
   background-attachment: scroll;
-  background-size: 102%;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -73,22 +72,29 @@ margin-bottom: 50px;
 
 .header-gallery {
   background-image: url("./assets/imgs/SWQ_tenho_kasper.jpg"); 
-  background-size: 100%;
+  background-size: 104%;
+  background-position: center 10%;
 }
 
 .header-gigs {
   background-image: url("./assets/imgs/SWQ_ilkka_tenho_2.jpg"); 
-  background-size: 100%;
+  background-size: 105%;
+  background-position: center 20%;
 }
 
 .dimmer {
   background-color: rgba(1, 0, 0, 0.2);
 }
 
+.carousel-size {
+  max-height: 50vh;
+  overflow: hidden;
+}
+
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)), url("./assets/imgs/SWQ_v2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.0) 90%, rgba(255, 255, 255, 1) 95%), url("./assets/imgs/SWQ_v2.jpg");
   /* Set a specific height */
   height: 50vh;
 
