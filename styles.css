@@ -58,6 +58,10 @@ margin-bottom: 50px;
   min-height: 100vh;
 }
 
+.min-half-page {
+  min-height: 50vh;
+}
+
 .header-bg {
   min-height: 100%;
   background-attachment: scroll;
