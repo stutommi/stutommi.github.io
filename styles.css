@@ -28,6 +28,10 @@ body {
   height: 2000px
 }
 
+.album-cover {
+  max-width: 500px;
+}
+
 .a-pad {
   padding-top: 56px;
 }
